@@ -2,7 +2,7 @@
   "name": "webdev-resume",
   "version": "1.0.0",
   "description": "A HTML/CSS resume formatted to look like an MS Word document",
-  "main": "resume.html",
+  "main": "index.html",
   "scripts": {
     "build": "npm run clean && npm run imagemin && npm run usemin",
     "clean": "rimraf dist",
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
     "lite": "lite-server",
-    "usemin": "usemin resume.html -d dist --htmlmin -o dist/resume.html"
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html"
   },
   "repository": {
     "type": "git"
